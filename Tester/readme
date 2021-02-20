@@ -1,0 +1,34 @@
+REQUIREMENTS:
+-----------------
+
+
+1. Make sure python3 is installed:
+
+sudo apt install python3
+
+sudo apt install python3-pip
+
+2. Make sure numpy is installed:
+
+pip3 install numpy
+
+
+RUNNING:
+-----------------
+
+1. Put your project (makefile, src/ . include/, bin/) in the directory ass1.
+
+2. Run from the terminal:
+
+python3 tester.py
+
+3. The results of all tests should be printed to the screen. The results of all the tests, stdout and stderr of all tests, and valgrind xml reports will be put in the results directory.
+
+
+THE TESTS
+-----------------
+
+The first 4 tests use the main.cpp given to you with each one of the configs.
+The fifth checks your copy constructor implementation and uses mainCopy.cpp with the first config.
+The sixth checks your move constructor implementation and uses mainMove.cpp with the second config.
+The seventh and last test uses treeMain.cpp without a config file.
