@@ -24,7 +24,7 @@ Tree & Tree::operator=(const Tree &other) {
     if (this != &other) {
         Tree *temp = other.clone();
         clear();
-        copy(*temp);
+        steal(*temp);
         delete temp;
     }
     return *this;
